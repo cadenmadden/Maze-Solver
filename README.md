@@ -19,3 +19,18 @@ Following Lines:
 - 1 = Wall
 - 2 = Start Position
 - 3 = Exit Position
+
+## Class Hierarchy
+
+```bash
+MazeSolver (abstract)
+├── MazeSolverQueue (BFS implementation)
+└── MazeSolverStack (DFS implementation)
+
+Supporting Classes:
+├── Maze (maze representation and file I/O)
+├── MazeSquare (individual maze cells)
+├── Queue<E> (custom queue implementation)
+├── Stack<E> (custom stack implementation)
+└── ListNode<E> (linked list node)
+```
